@@ -1,0 +1,6 @@
+
+Simplified Chinese version translated by E-Tsai
+
+Confusions:
+1. shell: I followed the agreement reached in this discussion: https://github.com/progit/progit2-zh/issues/287
+   most people accept using 'shell' in English directly rather that translating it into Chinese (外壳程序).
