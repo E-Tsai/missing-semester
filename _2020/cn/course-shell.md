@@ -40,7 +40,7 @@ video:
 
 ## 使用shell
 
-当你启动终端时，你会看到一个形如下方的*命令行提示符*：
+当你启动终端时，你会看到一个形如下方的*命令行提示符 (prompt)*：
 
 ```console
 missing:~$ 
@@ -101,17 +101,11 @@ missing:~$ ../../bin/echo hello
 hello
 ```
 
-要注意，shell随时都在告知我们当前工作目录是什么，你可以配置自己的
+要注意，shell随时都在告知我们当前工作目录是什么，你可以配置自己的命令行提示符，展示你想要看到的内容，我们将在之后的讲座中介绍。
 
-Notice that our shell prompt kept us informed about what our current
-working directory was. You can configure your prompt to show you all
-sorts of useful information, which we will cover in a later lecture.
+通常来说，让我们运行程序时，除非我们特意指定，它会在当前目录里运行。例如，程序通常在当前目录里搜索文件，或是创建新文件。
 
-In general, when we run a program, it will operate in the current
-directory unless we tell it otherwise. For example, it will usually
-search for files there, and create new files there if it needs to.
-
-To see what lives in a given directory, we use the `ls` command:
+`ls`命令可以查看当前目录里有什么：
 
 ```console
 missing:~$ ls
