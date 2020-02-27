@@ -122,12 +122,9 @@ home
 ...
 ```
 
-Unless a directory is given as its first argument, `ls` will print the
-contents of the current directory. Most commands accept flags and
-options (flags with values) that start with `-` to modify their
-behavior. Usually, running a program with the `-h` or `--help` flag
-(`/?` on Windows) will print some help text that tells you what flags
-and options are available. For example, `ls --help` tells us:
+除非给出目录作为其第一个参数，否则`ls`将输出当前目录的内容。大多数命令接受标志（flag）和
+以`-`开头的选项（option）（即带有值的标志）以修改其行为。通常，使用`-h`或`--help`标志运行程序
+（相当于Windows上的`/？`）将打印一些帮助文本，告诉你哪些标志和选项可用。例如，`ls --help`告诉我们：
 
 ```
   -l                         use a long listing format
@@ -138,35 +135,17 @@ missing:~$ ls -l /home
 drwxr-xr-x 1 missing  users  4096 Jun 15  2019 missing
 ```
 
-This gives us a bunch more information about each file or directory
-present. First, the `d` at the beginning of the line tells us that
-`missing` is a directory. Then follow three groups of three characters
-(`rwx`). These indicate what permissions the owner of the file
-(`missing`), the owning group (`users`), and everyone else respectively
-have on the relevant item. A `-` indicates that the given principal does
-not have the given permission. Above, only the owner is allowed to
-modify (`w`) the `missing` directory (i.e., add/remove files in it). To
-enter a directory, a user must have "search" (represented by "execute":
-`x`) permissions on that directory (and its parents). To list its
-contents, a user must have read (`r`) permissions on that directory. For
-files, the permissions are as you would expect. Notice that nearly all
-the files in `/bin` have the `x` permission set for the last group,
-"everyone else", so that anyone can execute those programs.
+这为我们提供了有关每个文件或目录的更多信息。首先，该行开头的`d`告诉我们 `missing`是一个目录。然后跟随三组三个字符构成的串 （`rwx`）。这些分别是文件（`missing`）所有者的权限 ，所属组（`user`）和其他所有人的权限。 `-`表示对应的主体没有给定的权限。在上面的例子里，仅有`missing`目录所有者被允许修改（`w`）它（即在其中添加/删除文件）。想要进入一个目录，用户必须具有“搜索”（以“ execute”表示： `x`）该目录（及其父目录）的权限。想要列出其内容，则用户必须对该目录具有读取读取（`r`）权限。对于文件，它们的权限规则与你的直觉是一样的。请注意，几乎所有 `/bin`中的文件都为最后一组设置了`x`权限， “其他任何人”，以便任何人都可以执行那些程序。
 
-Some other handy programs to know about at this point are `mv` (to
-rename/move a file), `cp` (to copy a file), and `mkdir` (to make a new
-directory).
+现在你需要了解的其他便捷程序是`mv`（重命名/移动文件），`cp`（复制文件）和`mkdir`（创建新目录）。
 
-If you ever want _more_ information about a program's arguments, inputs,
-outputs, or how it works in general, give the `man` program a try. It
-takes as an argument the name of a program, and shows you its _manual
-page_. Press `q` to exit.
+如果你想要得到*更多*关于某个程序参数，输入，输出以及它如何工作的信息，可以试一试`man`命令，它将把另外的程序名当做参数，并向你展示该程序的*手册* （manual）。按`q`键退出。
 
 ```console
 missing:~$ man ls
 ```
 
-## Connecting programs
+## 连接程序
 
 In the shell, programs have two primary "streams" associated with them:
 their input stream and their output stream. When the program tries to
