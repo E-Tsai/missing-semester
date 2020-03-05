@@ -8,36 +8,23 @@ video:
   id: a6Q8Na575qc
 ---
 
-Writing English words and writing code are very different activities. When
-programming, you spend more time switching files, reading, navigating, and
-editing code compared to writing a long stream. It makes sense that there are
-different types of programs for writing English words versus code (e.g.
-Microsoft Word versus Visual Studio Code).
 
-As programmers, we spend most of our time editing code, so it's worth investing
-time mastering an editor that fits your needs. Here's how you learn a new
-editor:
 
-- Start with a tutorial (i.e. this lecture, plus resources that we point out)
-- Stick with using the editor for all your text editing needs (even if it slows
-you down initially)
-- Look things up as you go: if it seems like there should be a better way to do
-something, there probably is
+写作和写代码是非常不同的事情。当你在写程序时，你将会花费更长的时间来切换文件，阅读，在目录中穿梭，以及编辑代码。因此你很容易理解，写代码和写作的程序并不一样（例如微软的Word和Visual Studio Code）。
 
-If you follow the above method, fully committing to using the new program for
-all text editing purposes, the timeline for learning a sophisticated text
-editor looks like this. In an hour or two, you'll learn basic editor functions
-such as opening and editing files, save/quit, and navigating buffers. Once
-you're 20 hours in, you should be as fast as you were with your old editor.
-After that, the benefits start: you will have enough knowledge and muscle
-memory that using the new editor saves you time. Modern text editors are fancy
-and powerful tools, so the learning never stops: you'll get even faster as you
-learn more.
+作为程序员，我们将花费大量时间来编辑代码，因此将时间投资到掌握适合需求的编辑器是值得的。这是学习使用新编辑器的做法：
 
-# Which editor to learn?
+- 阅读教程（例如这个讲座，以及我们提供的资源）
+- 坚持使用你选定的编辑器 （即使它刚开始使你的速度变慢）
+- 在使用过程中不停查询：如果某件事看起来又更高效的方法存在，那么更高效的方法通常存在
 
-Programmers have [strong opinions](https://en.wikipedia.org/wiki/Editor_war)
-about their text editors.
+如果你遵循上述方法，完全致力使用我们的新程序用于所有文本编辑，学习这样复杂的文本编辑器的时间表大概是这样：一两个小时后，你将学会基本的编辑器功能，例如打开和编辑文件，保存/退出以及浏览缓冲区。一旦花20个小时，你使用现在的编辑器就应当与以前一样快了。之后，优势就显现出来了：您将拥有足够的知识和肌肉记忆来使用新的编辑器，以节省时间。现代文字编辑很强大，因此学习永无止境：你学得越多，速度越快。
+
+# 学习哪一个编辑器？
+
+程序员们对于文本编辑器持有[不同的意见](https://en.wikipedia.org/wiki/Editor_war)。
+
+哪些文本编辑器受人欢迎？你可以查看
 
 Which editors are popular today? See this [Stack Overflow
 survey](https://insights.stackoverflow.com/survey/2019/#development-environments-and-tools)
